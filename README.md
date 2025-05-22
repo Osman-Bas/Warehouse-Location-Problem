@@ -44,6 +44,37 @@ Bu çözümde **Greedy Heuristic** (Açgözlü Sezgisel) bir algoritma kullanıl
 <taşıma_maliyetleri>           # Her müşteri için, tüm depolara
 ...
 
+## 🚀 Nasıl Çalıştırılır?
+
+1. Gerekli dosyayı çalıştırın:
+    ```bash
+    python greedy_wlp.py
+2.Terminal çıktısı aşağıdakine benzer olur:
+```bash
+ Depo Sayısı: 5
+Müşteri Sayısı: 25
+İlk 5 Depo Kapasitesi: [...]
+İlk 5 Kurulum Maliyeti: [...]
+İlk 5 Müşteri Talebi: [...]
+İlk Müşterinin Ulaşım Maliyetleri (İlk 5 depo): [...]
+Toplam Maliyet: 1234.56
+```
+## Örnek Koddan
+
+```python
+def greedy_assignment(...):
+    # Her müşteri için en ucuz uygun depoyu bul
+```
+
+## 🔧 Gereksinimler
+
+Bu proje sadece standart Python kütüphanelerini kullanır. Ekstra bağımlılık yoktur. Python 3.7+ önerilir.
+
+## 📝 Lisans
+
+Bu proje açık kaynaklıdır.
+
+
 
 
 
