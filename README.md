@@ -28,7 +28,22 @@ Bu çözümde **Greedy Heuristic** (Açgözlü Sezgisel) bir algoritma kullanıl
 ## 📁 Dosya Yapısı
 
 ```bash
-.
+
 ├── greedy_wlp.py          # Veriyi okuma ve greedy algoritmayı çalıştıran Python dosyası
 ├── wl_25.txt              # Örnek veri seti (25 müşteri, X depo)
 ├── README.md              # Proje açıklamaları
+```
+---
+
+## 🧪 Veri Seti Formatı
+
+<depo_sayısı> <müşteri_sayısı>
+<kapasite> <açma_maliyeti>     # Tüm depolar için
+...
+<müşteri_talebi>               # Her müşteri için
+<taşıma_maliyetleri>           # Her müşteri için, tüm depolara
+...
+
+
+
+
